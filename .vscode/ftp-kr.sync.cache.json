@@ -1,0 +1,91 @@
+{
+  "ftp://gdit_ftp@192.168.1.215": {
+    "htdocs": {
+      "example": {
+        "example.php": {
+          "type": "-",
+          "size": 58,
+          "lmtime": 1663576835612,
+          "modified": false
+        },
+        "index.php": {
+          "type": "-",
+          "size": 58,
+          "lmtime": 1663576835612,
+          "modified": false
+        }
+      },
+      "intern": {
+        ".csv": {
+          "type": "-",
+          "size": 3366685,
+          "lmtime": 0,
+          "modified": false
+        },
+        "db.php": {
+          "type": "-",
+          "size": 356,
+          "lmtime": 1663637996732,
+          "modified": false
+        },
+        "db.phph": {
+          "type": "-",
+          "size": 0,
+          "lmtime": 1663636010921,
+          "modified": false
+        },
+        "dbConfig.php": {
+          "type": "-",
+          "size": 467,
+          "lmtime": 1663663574849,
+          "modified": false
+        },
+        "exportFileFromDB.php": {
+          "type": "-",
+          "size": 1392,
+          "lmtime": 1663663477504,
+          "modified": false
+        },
+        "index.php": {
+          "type": "-",
+          "size": 2553,
+          "lmtime": 1663581531313,
+          "modified": false
+        },
+        "million.csv": {
+          "type": "-",
+          "size": 36666688,
+          "lmtime": 0,
+          "modified": true
+        },
+        "readAndInsert.php": {
+          "type": "-",
+          "size": 3388,
+          "lmtime": 1663664269894,
+          "modified": false
+        },
+        "readAndReview.php": {
+          "type": "-",
+          "size": 1140,
+          "lmtime": 1663638138632,
+          "modified": false
+        },
+        "writeMillion.php": {
+          "type": "-",
+          "size": 553,
+          "lmtime": 1663652350027,
+          "modified": false
+        },
+        "task2": {
+          "index.php": {
+            "type": "-",
+            "size": 2525,
+            "lmtime": 1663664952098,
+            "modified": false
+          }
+        }
+      }
+    }
+  },
+  "$version": 1
+}

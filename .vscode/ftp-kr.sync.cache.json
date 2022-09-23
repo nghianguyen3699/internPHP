@@ -36,14 +36,14 @@
         },
         "dbConfig.php": {
           "type": "-",
-          "size": 467,
-          "lmtime": 1663663574849,
+          "size": 376,
+          "lmtime": 1663898453278,
           "modified": false
         },
         "exportFileFromDB.php": {
           "type": "-",
-          "size": 1392,
-          "lmtime": 1663663477504,
+          "size": 1342,
+          "lmtime": 1663898603666,
           "modified": false
         },
         "index.php": {
@@ -60,20 +60,14 @@
         },
         "readAndInsert.php": {
           "type": "-",
-          "size": 3388,
-          "lmtime": 1663664269894,
+          "size": 2701,
+          "lmtime": 1663899392278,
           "modified": false
         },
         "readAndReview.php": {
           "type": "-",
           "size": 1140,
           "lmtime": 1663638138632,
-          "modified": false
-        },
-        "writeMillion.php": {
-          "type": "-",
-          "size": 553,
-          "lmtime": 1663652350027,
           "modified": false
         },
         "task2": {
@@ -83,6 +77,12 @@
             "lmtime": 1663664952098,
             "modified": false
           }
+        },
+        "writeMillion.php": {
+          "type": "-",
+          "size": 553,
+          "lmtime": 1663652350027,
+          "modified": false
         }
       }
     }

@@ -3,13 +3,13 @@
 
     function exportFile($table)
     {   
-        $db = new mysqli("192.168.1.215", "root", "cms-8341", "mysql"); 
+        global $conn;
 
-        $query = $db->query("SELECT * FROM $table ORDER BY id ASC"); 
+        $query = $conn->query("SELECT * FROM $table ORDER BY id ASC"); 
      
         if($query->num_rows > 0){ 
             $delimiter = ","; 
-            $filename = "million-data" . date('y-m-d') . ".csv"; 
+            $filename = "million-data_" . date('h:m:s') . ".csv"; 
             
             // Create a file pointer 
             $f = fopen('php://memory', 'w'); 
@@ -25,16 +25,16 @@
             } 
             
             // Move back to beginning of file 
-            fseek($f, 0); 
+            // fseek($f, 0); 
 
-            //download file rather than displayed 
+            // Download file rather than displayed 
             header('Content-Type: text/csv'); 
             header('Content-Disposition: attachment; filename="' . $filename . '";'); 
             
-            //output all remaining data on a file pointer 
-            fpassthru($f); 
+            // Output all remaining data on a file pointer 
+            // fpassthru($f); 
         } 
         exit;
     }
-    exportFile('million');
+    exportFile('milion');
 ?>

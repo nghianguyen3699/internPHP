@@ -1,19 +1,12 @@
 <?php
-    function connectDatabase()
-    {
-        $dbHostname='192.168.1.215';
-        $dbUsername='root';
-        $dbPassword='cms-8341';
-        $db='mysql';
+    define('DATABASE_HOST', '192.168.1.215');
+    define('DATABASE_USER', 'root');
+    define('DATABASE_PASSWORD', 'cms-8341');
+    define('DATABASE_NAME', 'mysql');
+
+    $conn = new mysqli(DATABASE_HOST, DATABASE_USER, DATABASE_PASSWORD, DATABASE_NAME);
     
-        $conn=new mysqli($dbHostname,$dbUsername,$dbPassword,$db);
-    
-        if(!$conn){
-            die('Error In connection'.mysqli_connect_error());
-        }else{
-            echo 'Connection Success<br>';
-        }
-        mysqli_close($conn);
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
     }
-    connectDatabase();
 ?>
